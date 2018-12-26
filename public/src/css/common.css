@@ -4886,12 +4886,22 @@ li:nth-child(1) a.ng-binding:before {
 
 li:nth-child(2) a.ng-binding:before {
     content: "";
+    background: url(../img/zerocoin_icon_nav.svg) no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: -6px 4px -6px 4px;
+}
+
+.dropdown-menu.more-menu>li:nth-child(2) a.ng-binding:before {
+    content: "";
     background: url(../img/status_icon_nav.svg) no-repeat;
     display: inline-block;
     width: 24px;
     height: 24px;
     margin: -6px 4px -6px 4px;
 }
+
 .navbar-default .navbar-toggle {
     border-color: #ddd;
 }
@@ -7320,10 +7330,10 @@ h6,
 }
 
 .status {
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
     background-color: #2373b7;
-    border-radius: 50px;
+    border-radius: 2px;
     margin: 16px 0;
     padding: 8px 16px;
     font-size: 12px;
