@@ -7269,9 +7269,9 @@ h6,
 
 .navbar-form .form-control {
     background-color: transparent;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
     border: 1px solid #ffffff20;
     -webkit-box-shadow: 1px 1px 0 0 rgba(255, 255, 255, 0), inset 1px 1px 3px 0 rgba(0, 0, 0, 0);
     -moz-box-shadow: 1px 1px 0 0 rgba(255, 255, 255, 0), inset 1px 1px 3px 0 rgba(0, 0, 0, 0);
