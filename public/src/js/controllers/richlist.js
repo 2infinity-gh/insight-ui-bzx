@@ -16,9 +16,9 @@ angular.module('insight.richlist')
 })
 .controller('RealSupplyController', function($scope, $http) {
   $scope.realSupply = 'Not available';
-  $http.get("/insight-api-zcoin/zerocoin/getrealsupply")
+  $http.get("/insight-api-bzx/zerocoin/getrealsupply")
     .then(function(response) {
-      $scope.realSupply = response.data.total.toFixed(2).replace(/(\B)(?=(\d{3})+(?!\d))/g, '$1 ') + ' ZCOIN';
+      $scope.realSupply = response.data.total.toFixed(2).replace(/(\B)(?=(\d{3})+(?!\d))/g, '$1 ') + ' BZX';
       $scope.realSupplyRaw = response.data.total;
     });
 });

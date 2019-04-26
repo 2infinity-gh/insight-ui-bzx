@@ -23,28 +23,28 @@ msgstr "404 Página no encontrada :("
 #: public/views/index.html
 msgid ""
 "<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" target="
-"\"_blank\">open-source Zcoin blockchain explorer</a> with complete REST "
+"\"_blank\">open-source Bitcoinzero blockchain explorer</a> with complete REST "
 "and websocket APIs that can be used for writing web wallets and other apps  "
-"that need more advanced blockchain queries than provided by zcoind RPC.  "
-"Check out the <a href=\"https://github.com/zcoinofficial/insight-ui-zcoin\" target=\"_blank"
+"that need more advanced blockchain queries than provided by bzxd RPC.  "
+"Check out the <a href=\"https://github.com/bzxofficial/insight-ui-bzx\" target=\"_blank"
 "\">source code</a>."
 msgstr ""
 "<strong>insight</strong>  es un <a href=\"http://live.insight.is/\" target="
-"\"_blank\">explorador de bloques de Zcoin open-source</a> con un completo "
+"\"_blank\">explorador de bloques de Bitcoinzero open-source</a> con un completo "
 "conjunto de REST y APIs de websockets que pueden ser usadas para escribir "
-"monederos de Zcoins y otras aplicaciones que requieran consultar un "
+"monederos de Bitcoinzeros y otras aplicaciones que requieran consultar un "
 "explorador de bloques.  Obtén el código en <a href=\"http://github.com/"
-"zcoinpay/insight\" target=\"_blank\">el repositorio abierto de Github</a>."
+"bzxpay/insight\" target=\"_blank\">el repositorio abierto de Github</a>."
 
 #: public/views/index.html
 msgid ""
 "<strong>insight</strong> is still in development, so be sure to report any "
 "bugs and provide feedback for improvement at our <a href=\"https://github."
-"com/zcoinpay/insight/issues\" target=\"_blank\">github issue tracker</a>."
+"com/bzxpay/insight/issues\" target=\"_blank\">github issue tracker</a>."
 msgstr ""
 "<strong>insight</strong> esta en desarrollo aún, por ello agradecemos que "
 "nos reporten errores o sugerencias para mejorar el software. <a href="
-"\"https://github.com/zcoinofficial/insight-ui-zcoin/issues\" target=\"_blank\">Github issue "
+"\"https://github.com/bzxofficial/insight-ui-bzx/issues\" target=\"_blank\">Github issue "
 "tracker</a>."
 
 #: public/views/index.html
@@ -68,8 +68,8 @@ msgid "Best Block"
 msgstr "Mejor Bloque"
 
 #: public/views/status.html
-msgid "Zcoin node information"
-msgstr "Información del nodo Zcoin"
+msgid "Bitcoinzero node information"
+msgstr "Información del nodo Bitcoinzero"
 
 #: public/views/block.html
 msgid "Block"
@@ -90,11 +90,11 @@ msgstr "Bytes Serializados"
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to zcoind to get live updates from the p2p network. (Tried "
-"connecting to zcoind at {{host}}:{{port}} and failed.)"
+"Can't connect to bzxd to get live updates from the p2p network. (Tried "
+"connecting to bzxd at {{host}}:{{port}} and failed.)"
 msgstr ""
-"No se pudo conectar a zcoind para obtener actualizaciones en vivo de la "
-"red p2p. (Se intentó conectar a zcoind de {{host}}:{{port}} y falló.)"
+"No se pudo conectar a bzxd para obtener actualizaciones en vivo de la "
+"red p2p. (Se intentó conectar a bzxd de {{host}}:{{port}} y falló.)"
 
 #: public/views/includes/connection.html
 msgid "Can't connect to insight server. Attempting to reconnect..."
@@ -195,8 +195,8 @@ msgid "Last Block"
 msgstr "Último Bloque"
 
 #: public/views/status.html
-msgid "Last Block Hash (zcoind)"
-msgstr "Último Bloque Hash (zcoind)"
+msgid "Last Block Hash (bzxd)"
+msgstr "Último Bloque Hash (bzxd)"
 
 #: public/views/index.html
 msgid "Latest Blocks"

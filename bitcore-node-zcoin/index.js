@@ -9,7 +9,7 @@ var InsightUI = function (options) {
     if (typeof options.apiPrefix !== 'undefined') {
         this.apiPrefix = options.apiPrefix;
     } else {
-        this.apiPrefix = 'insight-api-zcoin';
+        this.apiPrefix = 'insight-api-bzx';
     }
     if (typeof options.routePrefix !== 'undefined') {
         this.routePrefix = options.routePrefix;
@@ -19,7 +19,7 @@ var InsightUI = function (options) {
 this.routePrefix = '';
 };
 
-InsightUI.dependencies = ['insight-api-zcoin'];
+InsightUI.dependencies = ['insight-api-bzx'];
 
 inherits(InsightUI, BaseService);
 

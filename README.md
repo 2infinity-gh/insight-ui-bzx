@@ -1,29 +1,29 @@
-# Insight UI Zcoin
+# Insight UI Bitcoinzero
 
-A Zcoin blockchain explorer web application service for [Bitcore Node Zcoin](https://github.com/zcoinpay/bitcore-node-zcoin) using [Insight API Zcoin](https://github.com/zcoinpay/insight-api-zcoin).
+A Bitcoinzero blockchain explorer web application service for [Bitcore Node Bitcoinzero](https://github.com/bzxpay/bitcore-node-bzx) using [Insight API Bitcoinzero](https://github.com/bzxpay/insight-api-bzx).
 
 ## Quick Start
 
-Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Bitcore](https://github.com/zcoinpay/bitcore-zcoin).
+Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Bitcore](https://github.com/bzxpay/bitcore-bzx).
 
 ## Getting Started
 
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g bitcore-node-zcoin
-bitcore-node-zcoin create mynode
+npm install -g bitcore-node-bzx
+bitcore-node-bzx create mynode
 cd mynode
-bitcore-node-zcoin install insight-api-zcoin
-bitcore-node-zcoin install insight-ui-zcoin
-bitcore-node-zcoin start
+bitcore-node-bzx install insight-api-bzx
+bitcore-node-bzx install insight-ui-bzx
+bitcore-node-bzx start
 ```
 
 Open a web browser to `http://localhost:3881/insight/`
 
 ## Development
 
-To run Insight UI Zcoin locally in development mode:
+To run Insight UI Bitcoinzero locally in development mode:
 
 Install bower dependencies:
 
@@ -45,7 +45,7 @@ $ grunt
 
 ## Multilanguage support
 
-Insight UI Zcoin uses [angular-gettext](http://angular-gettext.rocketeer.be) for multilanguage support.
+Insight UI Bitcoinzero uses [angular-gettext](http://angular-gettext.rocketeer.be) for multilanguage support.
 
 To enable a text to be translated, add the ***translate*** directive to html tags. See more details [here](http://angular-gettext.rocketeer.be/dev-guide/annotate/). Then, run:
 
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/zcoinpay/insight-api-zcoin) configuration and end-points, go to [Insight API GitHub repository](https://github.com/zcoinpay/insight-api-zcoin).
+For more details about the [Insight API](https://github.com/bzxpay/insight-api-bzx) configuration and end-points, go to [Insight API GitHub repository](https://github.com/bzxpay/insight-api-bzx).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI Zcoin GitHub repository](https://github.com/zcoinofficial/insight-ui-zcoin).
+Contributions and suggestions are welcomed at the [Insight UI Bitcoinzero GitHub repository](https://github.com/bzxofficial/insight-ui-bzx).
 
 
 ## License

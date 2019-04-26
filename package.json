@@ -1,8 +1,8 @@
 {
-    "name": "insight-ui-zcoin",
-    "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Zcoin network and build your own services with it.",
+    "name": "insight-ui-bzx",
+    "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Bitcoinzero network and build your own services with it.",
     "version": "0.4.3",
-    "repository": "git://github.com/sn-ntu/insight-ui-zcoin.git",
+    "repository": "git://github.com/2infinity-gh/insight-ui-bzx.git",
     "contributors": [
         {
             "name": "Matias Alejo Garcia",
@@ -26,19 +26,19 @@
         }
     ],
     "bugs": {
-        "url": "https://github.com/sn-ntu/insight-ui-zcoin/issues"
+        "url": "https://github.com/2infinity-gh/insight-ui-bzx/issues"
     },
-    "homepage": "https://github.com/sn-ntu/insight-ui-zcoin",
+    "homepage": "https://github.com/2infinity-gh/insight-ui-bzx",
     "license": "MIT",
     "keywords": [
         "insight",
         "blockchain",
         "blockexplorer",
-        "zcoin",
-        "bitcore-zcoin",
+        "bzx",
+        "bitcore-bzx",
         "front-end"
     ],
-    "bitcoreNode": "bitcore-node-zcoin",
+    "bitcoreNode": "bitcore-node-bzx",
     "insightConfig": {
         "routePrefix": ""
     },
